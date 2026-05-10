@@ -2,50 +2,64 @@
 
 /* Fonts [EN] */
 @font-face {
-    font-family: "Montserrat";
-    src: url(../font/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Playfair";
-    src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Playfair";
+  src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Fonts [JP] */
 @font-face {
-    font-family: "KaiseiOpti";
-    src: url(../font/KaiseiOpti-Regular.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "KaiseiOpti";
+  src: url(../font/KaiseiOpti-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "NotoSansJP";
-    src: url(../font/NotoSansJP-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "NotoSansJP";
+  src: url(../font/NotoSansJP-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-    --primary-color: #C34A4A;
-    --secondary-color: #9D5F5F;
-    --tertiary-color: #7BB38B;
+  --primary-color: #c34a4a;
+  --secondary-color: #9d5f5f;
+  --tertiary-color: #7bb38b;
 
-    --background-color: #F1EAE4;
-    --text-color: #333333;
-    
-    --titles-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500;
+  --background-color: #f1eae4;
+  --text-color: #333333;
+
+  --titles-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /* CSS RESET */
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
 }
