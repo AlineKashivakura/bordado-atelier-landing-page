@@ -60,6 +60,15 @@ button {
   box-sizing: border-box;
 }
 
+.section-title h1 {
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
 body {
   background-color: var(--background-color);
 }
