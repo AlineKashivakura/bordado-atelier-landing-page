@@ -1,7 +1,3 @@
-.new-collection {
-  margin: 80px 30px;
-}
-
 .new-collection-cards {
   display: flex;
   flex-direction: column;
@@ -39,4 +35,3 @@
     height: 300px;
   }
 }
-
